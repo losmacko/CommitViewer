@@ -45,14 +45,5 @@ If you encounter the error *"No templates or subcommands found matching: 'ca-use
 dotnet new install Clean.Architecture.Solution.Template::8.0.6
 ```
 
-## Test
-
-The solution contains unit, integration, and functional tests.
-
-To run the tests:
-```bash
-dotnet test
-```
-
 ## Help
 To learn more about the template go to the [project website](https://github.com/jasontaylordev/CleanArchitecture). Here you can find additional guidance, request new features, report a bug, and discuss the template with other users.
