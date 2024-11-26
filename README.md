@@ -2,17 +2,12 @@
 
 The project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/CommitViewer) version 8.0.6.
 
-## Build
-
-Run `dotnet build -tl` to build the solution.
-
 ## Run
 
-To run the web application:
+To run the application :
 
 ```bash
-cd .\src\Web\
-dotnet watch run
+CommitViewer.Console.exe [repository] [user]
 ```
 
 Navigate to https://localhost:5001. The application will automatically reload if you change any of the source files.
