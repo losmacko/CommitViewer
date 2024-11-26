@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CommitViewer.Console</RootNamespace>
+    <RootNamespace>CommitViewer.Web</RootNamespace>
     <AssemblyName>CommitViewer.Console</AssemblyName>
   </PropertyGroup>
 
