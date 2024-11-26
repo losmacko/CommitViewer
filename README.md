@@ -1,7 +1,11 @@
 ﻿# CommitViewer
+This app displaying commits in provided repository for particular user.
+To run application there need to be provided in appsettings.json 
+"PersonalAccessToken": ""
+"DefaultConnection": ""
+
 
 The project was generated using the [Clean.Architecture.Solution.Template](https://github.com/jasontaylordev/CommitViewer) version 8.0.6.
-
 ## Run
 
 To run the application :
@@ -9,36 +13,3 @@ To run the application :
 ```bash
 CommitViewer.Console.exe [repository] [user]
 ```
-
-Navigate to https://localhost:5001. The application will automatically reload if you change any of the source files.
-
-## Code Styles & Formatting
-
-The template includes [EditorConfig](https://editorconfig.org/) support to help maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The **.editorconfig** file defines the coding styles applicable to this solution.
-
-## Code Scaffolding
-
-The template includes support to scaffold new commands and queries.
-
-Start in the `.\src\Application\` folder.
-
-Create a new command:
-
-```
-dotnet new ca-usecase --name CreateTodoList --feature-name TodoLists --usecase-type command --return-type int
-```
-
-Create a new query:
-
-```
-dotnet new ca-usecase -n GetTodos -fn TodoLists -ut query -rt TodosVm
-```
-
-If you encounter the error *"No templates or subcommands found matching: 'ca-usecase'."*, install the template and try again:
-
-```bash
-dotnet new install Clean.Architecture.Solution.Template::8.0.6
-```
-
-## Help
-To learn more about the template go to the [project website](https://github.com/jasontaylordev/CleanArchitecture). Here you can find additional guidance, request new features, report a bug, and discuss the template with other users.
